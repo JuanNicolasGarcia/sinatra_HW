@@ -47,7 +47,7 @@ get '/' do
 	#display them
 	@title = "All posts"
 	@headline = "My life in blog"
-	@paragraph = "Follow me plz. Follow 4 Follow."
+	@paragraph = "Follow me and this really bad blog plz. Follow 4 Follow."
 	@posts = Post.all
 	erb :index
 end
